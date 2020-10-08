@@ -7,30 +7,26 @@
 }
 
 header {
-  width: 1440px;
-  height: 78px;
-
   nav {
     font-family: Noto Sans;
     font-size: 22px;
-    line-height: 30px;
     text-align: right;
     display: flex;
     align-items: center;
 
     ul{
-      width: 1440px;
+      width: 100%;
+      padding-right: 1rem;
+      li {
+        color: #707070;
+        font-weight: 500;
+        display: inline-block;
+        margin: 1.5rem;
+      }
     }
 
-    li {
-      color: #707070;
-      font-weight: 500;
-      display: inline-block;
-      margin: 1rem;
-    }
-    
     .office {
-      width: 140px;
+      width: 200px;
       font-weight: 800;
       color: #4B4B4B;
       margin: 0 2rem;
@@ -40,43 +36,42 @@ header {
 
 section {
   background-image: url(../Background.png);
-  width: 1440px;
+  width: 100%;
   height: 946px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 
-  h1 {
-    color: #FFFFFF;
-    width: 750px;
-    height: 68px;
-    font-family: Noto Sans;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 68px;
-  }
-
-  p {
-    color: #E6E6E6;
-    width: 798px;
-    height: 41px;
-    font-family: Noto Sans;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 41px;
-  }
-
-  button {
-    width: 222px;
-    height: 62px;
-    color: #4B4B4B;
-    background-color: #FFE6CF;
-    border-radius: 8px;
-    font-family: Noto Sans;
-    font-weight: 500;
-    font-size: 22px;
-    margin: 2em;
-    border: none;
+  .center {
+    text-align: center;
+    h1 {
+      color: #FFFFFF;
+      height: 68px;
+      font-family: Noto Sans;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 68px;
+    }
+  
+    p {
+      color: #E6E6E6;
+      height: 41px;
+      font-family: Noto Sans;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 41px;
+    }
+  
+    button {
+      padding: 1.5rem 2.5rem;
+      color: #4B4B4B;
+      background-color: #FFE6CF;
+      border-radius: 8px;
+      font-family: Noto Sans;
+      font-weight: 500;
+      font-size: 22px;
+      margin: 2em;
+      border: none;
+    }
   }
 }
